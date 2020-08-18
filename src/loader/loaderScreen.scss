@@ -1,0 +1,35 @@
+.loader-screen {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-image: url("../assets/loaderbg.png");
+   top: 0px; 
+  z-index: 10;
+  max-width: 500px;
+  max-height: 888px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-image {
+  width: 40vh;
+  height: 40vh;
+  margin: 20px;
+}
+
+.lottie-loader-container {
+  width: 100%;
+  height: 5vh;
+  border-radius: 50px;
+  margin-top: 160px;
+}
+
+.rim {
+  position: absolute;
+  overflow: hidden;
+  z-index: 3;
+  
+}
